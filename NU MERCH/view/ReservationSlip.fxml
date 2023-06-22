@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Reservation.ReservSlipController">
+   <children>
+      <ImageView fitHeight="705.0" fitWidth="1480.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Reservation/Receipt_4_reserv.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="37.0" layoutY="36.0" mnemonicParsing="false" onAction="#toHome" prefHeight="47.0" prefWidth="118.0" style="-fx-background-color: transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="758.0" layoutY="27.0" mnemonicParsing="false" onAction="#toNotif" prefHeight="19.0" prefWidth="92.0" style="-fx-background-color: transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="906.0" layoutY="27.0" mnemonicParsing="false" onAction="#toHome" prefHeight="23.0" prefWidth="48.0" style="-fx-background-color: transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="998.0" layoutY="27.0" mnemonicParsing="false" onAction="#toHelp" prefHeight="22.0" prefWidth="40.0" style="-fx-background-color: transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="1094.0" layoutY="25.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="563.0" layoutY="605.0" mnemonicParsing="false" onAction="#Ok" prefHeight="1.0" prefWidth="80.0" style="-fx-background-color: transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="name" layoutX="442.0" layoutY="206.0" text="Sneaky booger" />
+      <Label fx:id="studentnum" layoutX="478.0" layoutY="227.0" text="2023-696969" />
+      <Label fx:id="contact" layoutX="458.0" layoutY="248.0" text="096969696969" />
+      <Label fx:id="date" layoutX="492.0" layoutY="270.0" text="No beh" />
+      <Pane layoutX="396.0" layoutY="344.0" prefHeight="37.0" prefWidth="408.0">
+         <children>
+            <Label fx:id="productname" layoutX="8.0" layoutY="8.0" text="Traditional Uniform">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="size" layoutX="158.0" layoutY="8.0" text="Small" />
+            <Label fx:id="price" layoutX="348.0" layoutY="10.0" text="69696969" />
+            <Label fx:id="style" layoutX="201.0" layoutY="8.0" text="Female" />
+            <Label fx:id="qty" layoutX="285.0" layoutY="10.0" text="0.00" />
+         </children>
+      </Pane>
+      <Label fx:id="TotalPrice" layoutX="746.0" layoutY="407.0" text="10000" />
+   </children>
+</AnchorPane>
